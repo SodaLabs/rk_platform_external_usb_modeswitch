@@ -47,7 +47,7 @@
 # ************************************************
 # NEWER CLEAN STEPS MUST BE AT THE END OF THE LIST
 # ************************************************
-$(call add-clean-step, rm -rf $(PRODUCT_OUT)/vendor/etc/usb_modeswitch.d)
-$(call add-clean-step, rm -rf $(PRODUCT_OUT)/vendor/bin/usb_modeswitch)
+$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/etc/usb_modeswitch.d)
+$(call add-clean-step, rm -rf $(PRODUCT_OUT)/system/bin/usb_modeswitch)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/vendor/etc/init/usb_dongle.rc)
 $(call add-clean-step, rm -rf $(PRODUCT_OUT)/vendor/bin/usb_dongle)
